@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Mentor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <!-- Marked.js for rendering beautiful Markdown formatting -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="hero">
+      <div class="badge">Stage 1 • MCP Grounded Curriculum</div>
+      <h1>Tech Mentor</h1>
+      <p class="subtitle">Welcome To TechLab infotech: please tell us what you want to learn </p>
+    </header>
+
+    <!-- Query Box Card -->
+    <section class="card input-card">
+      <label for="queryInput" class="input-label">What would you like to learn today?</label>
+      
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="queryInput" 
+          placeholder="e.g. What is the beginner Python syllabus? or Tell me about Docker..." 
+          autofocus
+        />
+        <button id="submitBtn" class="primary-btn">
+          <span>Ask Mentor</span>
+          <span class="btn-icon">🚀</span>
+        </button>
+      </div>
+
+      <!-- Quick Suggestion Chips -->
+      <div class="suggestions">
+        <span class="suggestions-label">Try asking:</span>
+        <button class="chip" data-query="What do we learn in Python beginner?">🐍 Python Beginner</button>
+        <button class="chip" data-query="Give me syllabus for Java">☕ Java Enterprise</button>
+        <button class="chip" data-query="Show me Rust beginner curriculum">🦀 Rust Beginner</button>
+        <button class="chip" data-query="What is covered in Golang syllabus?">🐹 Golang</button>
+        <button class="chip" data-query="Give me Docker syllabus in general">🐳 Docker Overview</button>
+        <button class="chip" data-query="What is covered in Kubernetes expert?">☸️ Kubernetes Expert</button>
+        <button class="chip" data-query="What do you teach in Machine Learning?">🤖 Machine Learning</button>
+      </div>
+    </section>
+
+    <!-- Status / Loading Indicator -->
+    <div id="loading" class="loading-state hidden">
+      <div class="spinner"></div>
+      <p>Consulting MCP Syllabus Database...</p>
+    </div>
+
+    <!-- Response Display Card -->
+    <section id="responseCard" class="card response-card hidden">
+      <div class="response-header">
+        <span class="response-tag">📋 Verified Curriculum</span>
+        <button id="clearBtn" class="text-btn">Clear</button>
+      </div>
+      <div id="responseContent" class="markdown-body">
+        <!-- Rendered formatted curriculum appears here -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Built for learning Agentic AI  &bull; Powered by <strong>Flask</strong> & <strong>Model Context Protocol (MCP)</strong></p>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

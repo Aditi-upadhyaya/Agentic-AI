@@ -1,0 +1,53 @@
+================================================================================
+  ANANTA INFOTECH — AGENTIC AI & MCP TRAINING (35-SECOND PROMO SCRIPT)
+================================================================================
+Target Duration: Exactly 35.0 seconds
+Video File: agentic_ai_promo.mp4
+Case Study: Ananta Infotech Website Inquiry (Java Intermediate Syllabus)
+Trainer Contact:
+  - Mobile / WhatsApp: +91 9850597704
+  - Email: manoj@anantainfotech.co.in / manojl.upadhyaya@gmail.com
+  - Website: anantainfotech.co.in
+================================================================================
+
+HOW TO USE IN OBS STUDIO:
+1. In OBS, add 'agentic_ai_promo.mp4' as a Media Source.
+2. Select your microphone under Audio Input Capture.
+3. Hit 'Start Recording' and speak this script alongside the on-screen captions!
+================================================================================
+
+[00:00 - 00:08] ACT 1: THE INQUIRY AT ANANTA INFOTECH (8 SECONDS)
+--------------------------------------------------------------------------------
+(On Screen: Student on Ananta Infotech Web Portal typing: "Please give me Java intermediate syllabus")
+
+"A student visits the Ananta Infotech website asking: 
+ 'Please give me the Java intermediate syllabus'. 
+ Our AI agent instantly receives the request."
+
+
+[00:08 - 00:17] ACT 2: GEMINI REASONING & FASTMCP TOOL CALL (9 SECONDS)
+--------------------------------------------------------------------------------
+(On Screen: Query reaches Google Gemini -> Autonomous Tool Call emitted via FastMCP)
+
+"The agent contacts Google Gemini, which analyzes the intent 
+ and autonomously triggers an MCP tool call to query 
+ Ananta Infotech's internal database."
+
+
+[00:17 - 00:26] ACT 3: SECURE DATA FETCH & ZERO HALLUCINATION (9 SECONDS)
+--------------------------------------------------------------------------------
+(On Screen: FastMCP fetches verified JSON from Database -> Gemini delivers grounded curriculum card)
+
+"FastMCP retrieves the verified JSON data directly from our private vault, 
+ and Gemini formats a grounded, zero-hallucination curriculum 
+ delivered live to the student!"
+
+
+[00:26 - 00:35] ACT 4: CALL TO ACTION & CONTACT DETAILS (9 SECONDS)
+--------------------------------------------------------------------------------
+(On Screen: Ananta Infotech Masterclass Card with Mobile, WhatsApp, Email & Website)
+
+"Learn how to architect and build real production Agentic AI systems like this. 
+ Contact Manoj Upadhyaya at Ananta Infotech today to join our Masterclass!"
+
+================================================================================
